@@ -337,9 +337,6 @@ func testAccCheckPagerDutyEventOrchestrationRouterDynamicRouteToConfig(t, ep, s,
 				}
 				rule {
 					label = "static routing rule"
-					condition {
-						expression = "event.summary matches part '[prod]'"
-					}
 					actions {
 						route_to = pagerduty_service.bar.id
 					}
