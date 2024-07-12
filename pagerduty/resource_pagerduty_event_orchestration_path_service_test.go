@@ -780,8 +780,7 @@ func testAccCheckPagerDutyEventOrchestrationPathServiceAllActionsDeleteConfig(ep
 			}
 
 			catch_all {
-				actions {
-				 }
+				actions { }
 			}
 		}
 	`)

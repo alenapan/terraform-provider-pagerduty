@@ -725,8 +725,7 @@ func testAccCheckPagerDutyEventOrchestrationPathGlobalAllActionsDeleteConfig(t, 
 			}
 
 			catch_all {
-				actions {
-				}
+				actions { }
 			}
 		}
 	`)
