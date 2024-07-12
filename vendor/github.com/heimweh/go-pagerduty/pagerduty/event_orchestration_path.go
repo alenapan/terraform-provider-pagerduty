@@ -74,12 +74,6 @@ type EventOrchestrationPathDynamicRouteTo struct {
 	LookupBy string `json:"lookup_by,omitempty"`
 }
 
-type EventOrchestrationPathDynamicRouteTo struct {
-	Source   string `json:"source,omitempty"`
-	Regex    string `json:"regex,omitempty"`
-	LookupBy string `json:"lookup_by,omitempty"`
-}
-
 type EventOrchestrationPathIncidentCustomFieldUpdate struct {
 	ID    string `json:"id,omitempty"`
 	Value string `json:"value,omitempty"`
